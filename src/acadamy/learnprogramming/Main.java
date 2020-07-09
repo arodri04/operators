@@ -43,5 +43,22 @@ public class Main {
         else {
             System.out.println("it is an alien!");
         }
+
+        int Score = 200;
+
+        if (Score == 100) {
+            System.out.println("You got the highScore");
+        }
+        if ((100 > Score) && (Score > 80) ) {
+            System.out.println("score is inbetween 100 and 80");
+        }
+        if ((Score > 100) || (Score < 0)) {
+            System.out.println(" score out of bounds");
+        }
+
+        else {
+            System.out.println("less than 80");
+
+        }
     }
 }
