@@ -53,12 +53,17 @@ public class Main {
             System.out.println("score is inbetween 100 and 80");
         }
         if ((Score > 100) || (Score < 0)) {
-            System.out.println(" score out of bounds");
+            System.out.println("score out of bounds");
         }
 
         else {
             System.out.println("less than 80");
 
+        }
+
+        boolean isCar = false;
+        if (!isCar) {
+            System.out.println("not a car");
         }
     }
 }
