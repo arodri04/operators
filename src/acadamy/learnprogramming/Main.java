@@ -65,5 +65,51 @@ public class Main {
         if (!isCar) {
             System.out.println("not a car");
         }
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("Wascar is true");
+        }
+
+
+        //CHALLENGE TIME!
+        //create double 20.00
+        //create double 80.00
+        //add both and multiply by 100.00
+        //find remainder of step 3 and 40
+        //create bool to true if 4 is 0, false if not
+        //sout bool
+        //if there is a remainder display message
+
+
+
+        double first = 20;
+        double second = 80;
+
+        double stepThree = (first + second) * 100; //should be 10000
+        System.out.println(stepThree);
+
+        double stepFour = stepThree % 40;
+
+
+        boolean remainder = (stepFour == 0) ? true : false;
+        System.out.println("remainder = " + remainder);
+
+        if (!remainder) {
+            System.out.println("got some remainder");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
